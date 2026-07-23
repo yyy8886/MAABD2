@@ -1,0 +1,37 @@
+{
+    "点击屏幕": {
+        "recognition": "TemplateMatch",
+        "template": "屏幕.png",
+        "action": "LongPress",
+        "duration": 1200,
+        "pressure": 3,
+        "repeat": 5,
+        "repeat_delay": 0,
+        "repeat_wait_freezes": 200
+    },
+    "点击女朋友": {
+        "recognition": "TemplateMatch",
+        "template": "女朋友.png",
+        "action": "Click",
+        "contact": 1,
+        "target_offset": [
+            200,
+            0,
+            0,
+            0
+        ],
+        "next": [
+            "打开聊天窗口"
+        ]
+    },
+    "打开聊天窗口": {
+        "recognition": "TemplateMatch",
+        "template": "打开聊天窗口.png",
+        "action": "Click"
+    },
+    "MAA测试": {
+        "recognition": "TemplateMatch",
+        "template": "MAA测试.png",
+        "action": "Click"
+    }
+}
