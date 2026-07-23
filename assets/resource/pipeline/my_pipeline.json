@@ -27,7 +27,8 @@
     "打开聊天窗口": {
         "recognition": "TemplateMatch",
         "template": "打开聊天窗口.png",
-        "action": "Click"
+        "action": "Click",
+        "next": []
     },
     "MAA测试": {
         "recognition": "TemplateMatch",
